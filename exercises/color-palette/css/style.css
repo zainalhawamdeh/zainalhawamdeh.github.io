@@ -1,0 +1,49 @@
+#palette-name {
+    font-family: Verdana;
+    text-align: center;
+}
+
+#palette-color-1 {
+    background-color: #73C2BE;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-family: Geneva;
+    font-style: italic;
+}
+
+#palette-color-2 {
+    background-color: #413C58;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-family: Geneva;
+    font-style: italic;
+}
+
+#palette-color-3 {
+    background-color: #CBBAED;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-family: Geneva;
+    font-style: italic;
+}
+
+#palette-color-4 {
+    background-color: #E3D985;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-family: Geneva;
+    font-style: italic;
+}
+
+#palette-color-5 {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    font-family: Geneva;
+    font-style: italic;
+}
