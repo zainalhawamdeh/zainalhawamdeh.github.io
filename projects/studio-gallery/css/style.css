@@ -1,0 +1,34 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+.art-1 {
+    width: 50%;
+    border: 8px brown inset;
+    margin-top: 50px;
+    margin-right: 50px;
+    box-shadow: 2px 2px rgb(60, 60, 60);
+}
+.art-2 {
+    border: 10px black ridge;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: inset 0px 0px 5px 2px grey;
+}
+.art-3 {
+    width: 100px;
+    margin-top: 10px;
+    border: 10px rgb(72, 54, 37) groove;
+    padding: 15px;
+    background: burlywood;
+    box-shadow: inset 0px 0px 3px 3px black;
+}
+.text {
+    font-family: fantasy;
+    font-size: 24px;
+}
