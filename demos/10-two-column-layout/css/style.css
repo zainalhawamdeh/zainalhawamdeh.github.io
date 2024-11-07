@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#two-columns {
+    display: flex;
+}
+#sidebar-content {
+    background-color: #9becd8;
+    width: 250x;
+    padding: 24px;
+    border-right: 2px solid seagreen;
+}
+#main-content {
+    flex: 1;
+    padding: 48px;
+}
+#sidebar-content h2 {
+    border-bottom: 2px solid seagreen;
+    padding-bottom: 8px;
+}
+#sidebar-content ul {
+    list-style-type: none;
+    padding: 0px;
+}
+#sidebar-content ul a {
+    color: #111111;
+    text-decoration: none;
+}
+#sidebar-content ul li {
+    padding: 4px 0x;
+}
