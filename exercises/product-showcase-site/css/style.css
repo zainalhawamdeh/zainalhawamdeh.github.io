@@ -24,11 +24,13 @@ body {
 .container-2 {
     background-color: #841C26;
     padding: 60px 0px;
+    color: white;
 }
 
 .container-3 {
     background-color: #ECA72C;
-    color: white
+    color: white;
+    padding: 60px 0px;
 }
 
 img {
