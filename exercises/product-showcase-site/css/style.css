@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Gill Sans;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 400px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1 {
+    background-color: #3D348B;
+    color: white;
+    padding: 60px 0px;
+}
+
+.container-2 {
+    background-color: #841C26;
+    padding: 60px 0px;
+}
+
+.container-3 {
+    background-color: #ECA72C;
+    color: white
+}
+
+img {
+    width: 250px;
+}
