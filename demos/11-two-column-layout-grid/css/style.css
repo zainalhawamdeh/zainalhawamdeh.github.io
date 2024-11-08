@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#grid-layout {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-template-areas: "content sidebar";
+}
+#sidebar-content {
+    grid-area: sidebar;
+}
+#main-content {
+    background-color: palegreen;
+    grid-area: content;
+}
+#sidebar-content H2 {
+    background-color: darkslategray;
+    color: white;
+    padding: 12px;
+    margin: 0px;
+    font-size: 18px;
+}
+#sidebar-content ul {
+    background-color: #EFEFEF;
+    margin: 0px 0px 36px;
+    padding: 0px 12px;
+}
