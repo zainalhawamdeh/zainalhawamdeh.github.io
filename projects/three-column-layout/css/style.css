@@ -2,18 +2,21 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     margin: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: sans-serif;
 }
 
 #layout {
     display: grid;
     grid-template-columns: 110px 500px 600px;
+    margin: 24px;
 }
 
 #column-1 {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -24,13 +27,15 @@ body {
 #appa-plush-4,
 #appa-plush-5,
 #appa-plush-6 {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 68px;
     border-radius: 18px;
     margin: 4px;
 }
 
 #appa-plush-main {
+    border-radius: 18px;
+    margin: 4px;
     width: 450px;
     height: 450px;
 }
@@ -38,8 +43,6 @@ body {
 .bold {
     font-weight: bold;
 }
-
-
 
 #purchase {
     display: flex;
@@ -72,4 +75,5 @@ body {
     padding: 12px;
     border-radius: 24px;
     text-align: center;
+    color: #0053a0;
 }
