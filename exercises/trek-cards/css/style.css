@@ -1,0 +1,42 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+.card-style-1 img {
+    width: 100%;
+}
+
+/* #trek-card-1 {
+    background-color: rgb(229, 249, 239);
+    width: 300px;
+    margin: 18px;
+} */
+.card-style-1 {
+    background-color: #daf5e5;
+    width: 350px;
+    margin: 18px;
+}
+
+.card-style-1 h2 {
+    text-align: center;
+}
+
+.card-style-1 a {
+    display: block;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-style-1 p {
+    margin: 18px;
+}
+
