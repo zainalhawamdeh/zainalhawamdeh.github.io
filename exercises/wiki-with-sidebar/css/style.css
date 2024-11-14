@@ -4,12 +4,12 @@
 
 body {
     font-family: Georgia;
+    padding: 36px;
 }
 
-#main-content {
+/* #main-content {
     min-width: 400px;
-    max-width: 900px;
-}
+} */
 
 #headings {
     font-style: italic;
@@ -24,6 +24,7 @@ body {
 
 #columns {
     display: flex;
+    margin: auto;
 }
 
 #side-content {
