@@ -8,6 +8,10 @@ body {
     background: #c4c4c4;
 }
 
+#sidebar-column {
+    margin-left: 24px;
+}
+
 #columns #main-column #side-by-side-1 {
     display: flex;
     gap: 12px;
@@ -61,4 +65,10 @@ body {
 .caption {
     font-style: italic;
     font-weight: bold;
+}
+
+#list-1,
+#list-2 {
+    border: 4px inset darkseagreen;
+    padding: 8px 24px;
 }
