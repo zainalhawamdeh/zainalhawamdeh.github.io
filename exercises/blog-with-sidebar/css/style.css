@@ -3,15 +3,62 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0px
     font-family: sans-serif;
+    background: #c4c4c4;
 }
 
-#two-columns {
+#columns #main-column #side-by-side-1 {
     display: flex;
+    gap: 12px;
+}
+
+#columns #main-column #side-by-side-2 {
+    display: flex;
+    gap: 12px;
+}
+
+#columns {
+    display: grid;
+    grid-template-columns: 1fr 250px;
 }
 
 #baldursgate1 {
     width: 300px;
     border-radius: 80px;
+}
+
+#baldursgate2,
+#baldursgate4 {
+    width: 100%;
+}
+
+#baldursgate3 {
+    width: 200px;
+}
+
+#author {
+    text-align: left;
+}
+
+#date {
+    text-align: right;
+}
+
+#intro #info {
+    display: flex;
+    justify-content: space-between;
+}
+
+#sidebar-heading {
+    margin-bottom: 0px;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.caption {
+    font-style: italic;
+    font-weight: bold;
 }
