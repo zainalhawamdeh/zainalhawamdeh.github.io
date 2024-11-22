@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Jacques+Francois+Shadow&family=Neonderthaw&family=Petit+Formal+Script&family=Pompiere&family=Sirin+Stencil&family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script:wght@400..700&family=Give+You+Glory&family=Jacques+Francois+Shadow&family=Moon+Dance&family=Neonderthaw&family=Petit+Formal+Script&family=Pompiere&family=Sail&family=Sirin+Stencil&family=Srisakdi:wght@400;700&family=Vast+Shadow&display=swap');
 
 * {
     box-sizing: border-box;
@@ -13,14 +13,100 @@ body {
     background-color: #526760;
 }
 
-h1 {
+.main {
     text-align: center;
     font-family: "Vast Shadow", serif;
     color: #E9D2C0;
 }
 
 #hero {
-    background-image: url("../images/portfolio-hero.jpg");
+    background-image: url('../images/portfolio-hero-5.jpg');
     height: 100vh;
     background-size: cover;
+    background-position: center center;
+    margin-bottom: 100px;
+    position: relative;
 }
+
+#hero #hero-content {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    text-align: right;
+}
+
+
+#hero h3 {
+    font-family: "Pompiere", serif;
+    font-size: 60px;
+    color: #BD6B73;
+    background-position: center center;
+    padding-bottom: 18px;
+
+}
+
+#hero a {
+    background-color: #BD6B73;
+    padding: 12px 48px;
+    text-decoration: none;
+    color: #E9D2C0;
+    border-radius: 15px;
+    font-family: "Sail", serif;
+    font-size: 32px;
+    font-style: oblique;
+}
+
+#row {
+    width: 90vw;
+    max-width: 1200px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#row .cards {
+    width: 300px;
+    border: 2px solid #E9D2C0;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #39312b;
+    text-align: center;
+    padding-bottom: 50px;
+    background-color: #ecece8;
+}
+
+#row .cards h3 {
+    font-family: "Sail", serif;
+    font-size: 28px;
+    padding-bottom: 28px;
+    color: #D67AB1;
+}
+
+#row .cards a {
+    background-color: #E9D2C0;
+    padding: 12px;
+    text-decoration: none;
+    color: #D67AB1;
+    font-family: "Petit Formal Script", serif;
+    font-style: oblique;
+    border: 2px solid #D67AB1;
+}
+
+.parallax {
+    height: 200vh;
+    background-image: url("../images/zain-landscape.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin: 50px;
+}
+
+.parallax h2 {
+    font-family: "Neonderthaw", serif;
+    font-size: 150px;
+    position: absolute;
+    right: 5%;
+    margin: 0px;
+}
+
+
