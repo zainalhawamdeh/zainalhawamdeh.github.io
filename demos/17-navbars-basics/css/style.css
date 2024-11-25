@@ -52,7 +52,24 @@ body {
     height: 200vh;
 }
 
-#navbar {
+/* #navbar { */
+#header {
     position: sticky;
     top: 0px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(
+        to bottom,
+        yellowgreen,
+        olive
+    );
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
 }
