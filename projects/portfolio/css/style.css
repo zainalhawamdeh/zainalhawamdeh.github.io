@@ -131,6 +131,11 @@ body {
     display: flex;
 }
 
+#gallery-layout h2 {
+    background-color: white;
+    display: inline-block;
+}
+
 #card-1,
 #card-2,
 #card-3,
