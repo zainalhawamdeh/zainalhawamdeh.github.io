@@ -131,9 +131,18 @@ body {
     display: flex;
 }
 
-#gallery-layout h2 {
-    background-color: white;
-    display: inline-block;
+#background {
+    position: relative;
+    z-index: 2;
+    background-color: #526760;
+    padding: 24px;
+}
+
+#background h2 {
+    margin-top: 0px;
+    padding: 24px 0px;
+    margin: 24px;
+    text-align: center;
 }
 
 #card-1,
