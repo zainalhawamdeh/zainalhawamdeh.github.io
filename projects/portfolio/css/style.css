@@ -13,7 +13,7 @@ body {
 .main {
     text-align: center;
     font-family: "Vast Shadow", serif;
-    color: #E9D2C0;
+    color: #ECECE8;
 }
 
 #hero {
@@ -46,7 +46,7 @@ body {
     background-color: #BD6B73;
     padding: 12px 48px;
     text-decoration: none;
-    color: #E9D2C0;
+    color: #ECECE8;
     border-radius: 15px;
     font-family: "Sail", serif;
     font-size: 32px;
@@ -91,15 +91,16 @@ body {
 }
 
 .homepage {
-    margin: 24px;
-    font-family: "Fraunces", serif;
+    margin: 0px;
+    font-family: "Dancing Script", serif;
     font-size: 24px;
 }
 
 .homepage a {
-    color: black;
+    color: #ECECE8;
     text-decoration: none;
-    padding: 24px;
+    padding: 0px;
+    border-bottom: 2px solid #ECECE8;
 }
 
 .parallax {
@@ -208,3 +209,86 @@ body {
     color: #ECECE8;
 }
 
+/* LOGO PAGE */
+
+.logo-layout {
+    max-width: 1100px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+/* .gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 10px solid #333333;
+    grid-auto-rows: 200px; 
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+.logo-gallery {
+    columns: 2 auto;
+    column-gap: 24px;
+}
+
+.logo-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.gallery-title {
+    text-align: center;
+    color: #ECECE8;
+    font-family: "Jacques Francois Shadow", serif;
+    font-size: 38px;
+}
+
+.styleguide-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+}
+
+.styleguide-gallery img {
+    width: 100%;
+}
+
+/* illustration page */
+
+.illustrations-gallery {
+    columns: 3 auto;
+}
+
+.illustrations-gallery img {
+    width: 100%;
+}
+
+/* web layout page */
+
+.web-gallery {
+        width: 90vw;
+        max-width: 1200px;
+        margin: 48px auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 24px;
+}
+
+.web-gallery img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.ads-gallery {
+    columns: 2 auto;
+    column-gap: 24px;
+}
+
+.ads-gallery img {
+    width: 100%;
+    margin-bottom: 24px;
+}
