@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+#color1,
+#color2,
+#color3,
+#color4 {
+    width: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+#color1 {
+    transition:
+        background-color 0.5s;
+}
+
+#color1:hover {
+    background-color: green;
+}
+
+#color2 {
+    transition:
+        background-color 0.5s;
+}
+
+#color2:hover {
+    background-color: red;
+}
+
+#color3 {
+    transition:
+        background-color 0.5s;
+}
+
+#color3:hover {
+    background-color: blue;
+}
+
+#color4 {
+    transition:
+        background-color 0.5s;
+}
+
+#color4:hover {
+    background-color: orange;
+}
+
+#opacity1,
+#opacity2,
+#opacity3,
+#opacity4 {
+    width: 300px;
+    border: 3px solid black;
+    margin: 24px;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
