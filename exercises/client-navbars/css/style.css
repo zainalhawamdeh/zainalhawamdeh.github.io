@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amarante&family=Dancing+Script&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Give+You+Glory&family=Jacques+Francois+Shadow&family=Moon+Dance&family=Neonderthaw&family=Oleo+Script:wght@400;700&family=Petit+Formal+Script&family=Pompiere&family=Sail&family=Sirin+Stencil&family=Srisakdi:wght@400;700&family=Vast+Shadow&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -7,6 +9,7 @@ body {
     font-family: sans-serif;
 }
 
+/* navbar 1 */
 #navbar {
     background: linear-gradient(
         to top,
@@ -26,4 +29,63 @@ body {
 #navbar h2 {
     margin-right: auto;
     color: #ddcbb7;
+}
+
+/* navbar 2 */
+
+#navbar2 h2 {
+    font-family: "Amarante", serif;
+    font-size: 38px;
+    color: #ff7251;
+}
+
+#navbar2 a {
+    font-family: "Fraunces", serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 24px;
+    color: #ff7251;
+}
+
+#navbar2 .cta-button {
+    font-size: 24px;
+}
+
+#navbar2 {
+    background: linear-gradient(
+        #F8C968,
+        #FDFBD4,
+        white
+    );
+    display: flex;
+    align-items: center;
+}
+
+/* navbar 3 */
+#navbar3-top {
+    background: linear-gradient(
+        to bottom,
+        #472C4C,
+        #A62014
+    );
+    color: white;
+}
+
+#navbar3-top p {
+    margin: 0px;
+    padding: 24px;
+}
+
+#navbar3-second {
+    background: linear-gradient(
+        to bottom,
+        #A62014,
+        #F29829
+    );
+    padding: 24px;
+}
+
+#navbar3-second h2 {
+    margin: 0px;
 }
