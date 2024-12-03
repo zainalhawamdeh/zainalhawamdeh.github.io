@@ -88,6 +88,7 @@ body {
     }
 
     #navbar #logo {
+        margin-right: 0px;
         font-size: 42px;
         font-weight: bold;
         font-family: "Henny Penny", system-ui;
