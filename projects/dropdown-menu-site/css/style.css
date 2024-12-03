@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amarante&family=Atma:wght@300;400;500;600;700&family=Dancing+Script&family=Delius&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Galindo&family=Give+You+Glory&family=Henny+Penny&family=Jacques+Francois+Shadow&family=Moon+Dance&family=Neonderthaw&family=Oleo+Script:wght@400;700&family=Petit+Formal+Script&family=Pompiere&family=Sail&family=Sirin+Stencil&family=Srisakdi:wght@400;700&family=Vast+Shadow&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -5,5 +7,101 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    min-height: 100vh;
+    background: #66CED6;
 }
 
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        #9acd32,
+        #ff0aff
+    );
+    display: flex;
+    align-items: center;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "Henny Penny", system-ui;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 34px;
+    font-family: "Delius", cursive;
+}
+
+#navbar a:hover {
+    background: linear-gradient(
+        to top,
+        #ffe66d,
+        magenta
+    );
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-menu a {
+    background: #ff0aff;
+    width: 100%;
+    min-width: 180px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+#hero {
+    background-image: url("../images/pexels-cute-animals.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 710px) and (min-width: 480px) {
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        font-size: 42px;
+        font-weight: bold;
+        font-family: "Henny Penny", system-ui;
+        text-align: center;
+        padding-top: 12px;
+        padding-bottom: 11px;
+    }
+
+    .dropdown-container a, .link a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .dropdown-menu a {
+        font-size: 14px;
+    }
+}
