@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        to left,
+        #c8ad8a, 
+        ivory
+    );
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #6e152c;
+}
+
+#navbar a img {
+    width: 200px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 24px;
+    font-size: 18px;
+}
