@@ -13,10 +13,10 @@ body {
     align-items: flex-start;
 }
 
-#color1,
-#color2,
-#color3,
-#color4 {
+#green,
+#blue,
+#red,
+#orange {
     width: 300px;
     border: 3px solid black;
     margin: 24px;
@@ -25,39 +25,39 @@ body {
     text-align: center;
 }
 
-#color1 {
+#green {
     transition:
         background-color 0.5s;
 }
 
-#color1:hover {
+#green:hover {
     background-color: green;
 }
 
-#color2 {
+#red {
     transition:
         background-color 0.5s;
 }
 
-#color2:hover {
+#red:hover {
     background-color: red;
 }
 
-#color3 {
+#blue {
     transition:
         background-color 0.5s;
 }
 
-#color3:hover {
+#blue:hover {
     background-color: blue;
 }
 
-#color4 {
+#orange {
     transition:
         background-color 0.5s;
 }
 
-#color4:hover {
+#orange:hover {
     background-color: orange;
 }
 
@@ -66,9 +66,68 @@ body {
 #opacity3,
 #opacity4 {
     width: 300px;
-    border: 3px solid black;
+    background: linear-gradient(
+        grey,
+        black
+    );
+    color: white;
     margin: 24px;
     padding: 12px;
     border-radius: 12px;
     text-align: center;
 }
+
+#opacity1 {
+    transition:
+        opacity 0.5s
+}
+
+#opacity1:hover {
+    opacity: 0.75;
+}
+
+#opacity2 {
+    transition:
+        opacity 0.5s
+}
+
+#opacity2:hover {
+    opacity: 0.5;
+}
+
+#opacity3 {
+    transition:
+        opacity 0.5s
+}
+
+#opacity3:hover {
+    opacity: 0.25;
+}
+
+#opacity4 {
+    transition:
+        opacity 0.5s
+}
+
+#opacity4:hover {
+    opacity: 0;
+}
+
+#lion h2,
+#elephant,
+#tiger,
+#bear {
+    width: 300px;
+    height: 300px;
+    margin: 24px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+}
+
+#lion img {
+    width: 100%
+}
+
