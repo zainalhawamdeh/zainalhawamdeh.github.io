@@ -113,21 +113,35 @@ body {
     opacity: 0;
 }
 
-#lion h2,
+#lion,
 #elephant,
 #tiger,
 #bear {
     width: 300px;
-    height: 300px;
     margin: 24px;
     padding: 12px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     border: 2px solid black;
 }
 
-#lion img {
-    width: 100%
+.arabic {
+    text-align: center;
+}
+
+#lion .english {
+    text-align: center;
+}
+
+#lion img,
+#elephant img,
+#tiger img,
+#bear img {
+    width: 100%;
+}
+
+#lion {
+    transition:
+        background-color 0.5s,
+        color 0.5s,
+
 }
 
