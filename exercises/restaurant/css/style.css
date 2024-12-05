@@ -1,34 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Amarante&family=Atma:wght@300;400;500;600;700&family=Dancing+Script&family=Delius&family=Eagle+Lake&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Galindo&family=Give+You+Glory&family=Henny+Penny&family=Jacques+Francois+Shadow&family=Moon+Dance&family=Neonderthaw&family=Oleo+Script:wght@400;700&family=Petit+Formal+Script&family=Pompiere&family=Sail&family=Sirin+Stencil&family=Srisakdi:wght@400;700&family=Vast+Shadow&display=swap');
+
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family: canela text, adelle sans;
+    background: #637952;
+}
+
+.centered-column {
+    width: 80vw;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    padding: 48px 0px;
+}
+
+#header {
+    text-align: center;
+    font-family: Canela text, bold;
+    font-size: 32px;
+    border: 12px groove #c8ad8a;
+    margin-bottom: 18px;
+    padding: 24px;
+    background: white;
+}
+
+#header img {
+    height: 200px;
 }
 
 #navbar {
     background: linear-gradient(
-        to left,
+        to top right,
         #c8ad8a, 
         ivory
     );
     display: flex;
-    align-items: center;
-    border-bottom: 3px solid #6e152c;
+    justify-content: space-evenly;
+    border: 6px inset #c8ad8a;
+    margin-bottom: 18px;
 }
 
 #navbar a img {
     width: 200px;
 }
 
-#navbar #logo-container {
+/* #navbar #logo-container {
     margin-right: auto;
-}
+} */
 
 #navbar a {
     text-decoration: none;
     color: black;
-    padding: 0px 24px;
-    font-size: 18px;
+    padding: 24px;
+    font-size: 20px;
+    font-family: adelle sans devanagari;
+}
+
+#homepage-hero {
+    background-image: url("../images/olive-tree-branch.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#homepage-hero h3 {
+    font-size: 32px;
+    color: white;
+}
+
+#homepage-hero a {
+    text-decoration: none;
+    font-size: 24px;
+    background: white;
+    padding: 12px;
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    display: inline-block;
+}
+
+#homepage-hero h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-background {
+    border: 12px inset #c8ad8a;
+    padding: 18px;
+    background: white;
+}
+
+#footer {
+    background: linear-gradient(
+        to top right,
+        #c8ad8a, 
+        #fffff0
+    );
+    margin-top: 18px;
+    padding: 12px;
+    border: 6px inset #c8ad8a;
+}
+
+#footer-navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer-navbar a, span {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
 }
