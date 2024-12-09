@@ -80,6 +80,53 @@ body {
     justify-content: flex-start;
 }
 
+.single-column {
+    width: 60%;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.dog {
+    border-radius: 30px;
+}
+
+.dog h3 {
+    font-size: 42px;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    font-family: "Delius", cursive;
+}
+
+.dog p {
+    padding: 18px;
+    font-family: "Delius", cursive;
+    font-size: 18px;
+}
+
+.dog img {
+    width: 400px;
+}
+
+#peachy {
+    height: 60vh;
+    background-color: #ffe66d;
+}
+
+#momo {
+    background-color: #9acd32;
+}
+
+#miko {
+    background-color: hotpink;
+}
+
+#peachy img {
+    margin-top: 50px;
+}
+
+
 @media screen and (max-width: 710px) and (min-width: 480px) {
 
     #navbar {
@@ -104,5 +151,17 @@ body {
 
     .dropdown-menu a {
         font-size: 14px;
+    }
+
+    .single-column {
+        width: 50%;
+        min-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .dog img {
+        width: 300px;
     }
 }
